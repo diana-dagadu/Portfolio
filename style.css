@@ -422,7 +422,6 @@ ul .list-items{
 .contact .right form .textarea{
     height: 80px;
     width: 100%;
-
 }
 .contact .right form .name{
     margin-right: 10px;
@@ -518,10 +517,6 @@ footer span a:hover{
 @media (max-width: 947px){
     .menu-btn{
         display: block;
-        z-index: 999;
-    }
-    .menu-btn i.active:before{
-        content: "\f00d";
     }
     .navbar .menu{
         position: fixed;
