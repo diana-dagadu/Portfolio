@@ -346,7 +346,7 @@ ul .list-items{
     text-align: left;
     border-radius: 6px;
     padding: 35px 25px;
-    height: 330px;
+    height: auto;
 }
 .services .serv-content .work-card2 .text{
     font-size: 25px;
