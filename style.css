@@ -14,7 +14,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 95px 0;
+    padding: 100px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -341,7 +341,7 @@ ul .list-items{
 
 /* Work Experience section styling */
 .services .serv-content .work-card2 {
-    width: calc(50% - 10px);
+    width: calc(50% - 12px);
     background-color: rgb(10, 10, 10);
     text-align: left;
     border-radius: 6px;
