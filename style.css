@@ -221,7 +221,7 @@ iframe{
     color:#fff;
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(33% - 40px);
     background-color: crimson;
     text-align: center;
     border-radius: 6px;
