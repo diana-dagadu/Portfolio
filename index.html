@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    <link rel="icon" type="image/png" href="images/logo.ico">
+    <link rel="icon" href="images/dd_resize_ipz_icon.ico">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     <!-- navbar start -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Port<span>folio</span></a></div>
+            <div class="logo"><a href="#"><img src="images/dd-resize.png" alt=""></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -27,7 +27,6 @@
                 <li><a href="#skillsandcertifications" class="menu-btn">Skills & Certifications</a></li>
                 <li><a href="#projects" class="menu-btn">Projects</a></li>
                 <li><a href="#workexperience" class="menu-btn">Work Experience</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
 
@@ -41,11 +40,27 @@
         <div class="max-width">
             <div class="row">
                 <div class="home-content">
-                    <div class="text-1">Hi, my name is</div>
-                    <div class="text-2">Diana Dagadu</div>
-                    <br>
-                    <div class="text-3">And I am a</div>
-                    <div class="text-4">Front-end Software Developer</div>
+                    <div class="left">
+                        <div class="name"> 
+                            <div class="text-1">Hi, my name is</div>
+                            <div class="text-2">Diana Dagadu</div>
+                        </div>
+                        <div class="profession">
+                            <div class="text-3">And I am a</div>
+                            <div class="text-4">Trainee Frontend Software Developer</div>
+                        </div>
+                        <div class="row-icons">
+                            <a href="https://twitter.com/triple_dd1"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="https://www.instagram.com/dede_dagadu/"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="https://web.facebook.com/dede.dagadu"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="https://github.com/diana-dagadu"><i class="zmdi zmdi-github-alt"></i></a>
+                            <a href="https://www.instagram.com/dede_dagadu/"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="images/Diana.png" alt="my-image">
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -58,11 +73,11 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column right">
-                    <p id="">I am a diligent and resourceful engineer with a growing interest in front-end software
+                    <p id="self">I am a diligent and resourceful engineer with a growing interest in frontend software
                         development. I have a good understanding of web development, UI/UX design, Project
                         Management as well as expertise in data analytics and business intelligence. I am well versed
                         with the use of Power BI to load and transform data, perform data modelling and analysis, and
-                        create coherent and visually immersive insights for making informed business decisions.I have
+                        create coherent and visually immersive insights for making informed business decisions.I also have
                         the ability to use HTML, CSS and JavaScript to design simple and beautiful websites. As a young
                         lady, I strive to go above and beyond to make a positive impact in every space, while ensuring a
                         culture of continuous learning.</p>
@@ -71,11 +86,7 @@
                 </div>
             </div>
         </div>
-        <div>
-            <iframe src="https://www.youtube.com/embed/e44Xz4SrTgk" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+
     </section>
 
 
@@ -135,15 +146,15 @@
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
-                            <span>HTML</span>
+                            <span>HTML, CSS and JavaScript</span>
                             <span>50%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>CSS</span>
-                            <span>50%</span>
+                            <span>Data Analytics</span>
+                            <span>60%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
@@ -181,49 +192,37 @@
             <div class="serv-content">
                 <div class="project-card">
                     <div class="project-box">
-                        <div class="project-text">To-do App</div>
-                        <p class="project-detail">This project entails the use of HTML and CSS to design a simple and
-                            user friendly Todo App. The application has 3 pages: Todo, Doing and Done pages. In this
-                            project, I employed the use of images, links, customized bullets, buttons and many other
-                            features to provide a great user experience.
+                        <div class="project-text">Simple eCommerce Website</div>
+                        <p class="project-detail">This is an eCommerce website that shows the product details page for a single product and includes functionalities such as choosing the quantity, adding to cart, deleting from cart and applying a 5-digit code for a discount.  This was designed using HTML,CSS and Javascript.
                             <br>
-                            <a class="see-more" href="https://github.com/diana-dagadu/Todo-App">Visit Project</a>
+                            <a class="see-more" href="https://github.com/diana-dagadu/Todo-App" target="_blank">Visit Project</a>
                         </p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-box">
-                        <div class="project-text">Pricing Table</div>
-                        <p class="project-detail">This project involves the use of HTML and CSS to design a simple
-                            pricing table for Dee’s breakfast, a breakfast shop in Accra. It involves the use of tables,
-                            images, links, list of meal plans and their respective prices that aid a user to select from
-                            the list of mean plans and order a meal.
+                        <div class="project-text">BMI Calculator</div>
+                        <p class="project-detail">This is an online calculator which determines Body Mass Index (BMI) based on two parameters – weight and height. Depending on an individual’s BMI, the calculator returns a short description of the BMI value. This was designed using HTML,CSS and Javascript.
                             <br>
-                            <a class="see-more" href="https://github.com/diana-dagadu/Pricing-Table">Visit Project</a>
+                            <a class="see-more" href="https://friendly-booth-8e7a05.netlify.app/" target="_blank">Visit Project</a>
                         </p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-box">
-                        <div class="project-text">Media Player</div>
-                        <p class="project-detail">This project was built using only HTLM and involves no styling. 
-                            The project has 3 main pages: Main page, Audio page and Video page which contain
-                            different video and audio elements to provide users with a great video and audio experience.
-                            I employed the use of tables, lists, images, audios, and videos.
+                        <div class="project-text">Birth Year Finder App</div>
+                        <p class="project-detail">This web application is used to calculate the year of birth, given an age. When a user enters an age value, the app calculates the corresponding birth year. This website was built using HTML, CSS and JavaScript.
                             <br>
-                            <a class="see-more" href="https://github.com/diana-dagadu/Media-Player">Visit Project</a>
+                            <a class="see-more" href="https://vigilant-liskov-93d8e6.netlify.app/" target="_blank">Visit Project</a>
                         </p>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-box">
-                        <div class="project-text">Personal Site</div>
-                        <p class="project-detail">This project was designed using HTML only and employs the use of
-                            tables, links, an image, etc. The project has a main page which contains information about
-                            my skills, educational background, work experience, certifications, projects, and the
-                            social media platforms on which I can be found.
+                        <div class="project-text">Responsive Company Website</div>
+                        <p class="project-detail">This is a simple responsive website for a fruit juice shop designed with HTML and CSS only. It shows only the home page and features a picturesque description of the categories of fruit juices, smoothies and teas available for sale.
                             <br>
-                            <a class="see-more" href="https://github.com/diana-dagadu/Personal_Site">Visit Project</a>
+                            <a class="see-more" href="https://nervous-johnson-7b264e.netlify.app/" target="_blank">Visit Project</a>
                         </p>
                     </div>
                 </div>
@@ -270,69 +269,6 @@
                 </div>
             </div>
         </div>
-        </div>
-    </section>
-
-
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <div class="row">
-                        <a href="https://twitter.com/triple_dd1"><i class="zmdi zmdi-twitter"></i></a>
-                        <a href="https://www.instagram.com/dede_dagadu/"><i class="zmdi zmdi-instagram"></i></a>
-                        <a href="https://web.facebook.com/dede.dagadu"><i class="zmdi zmdi-facebook"></i></a>
-                        <a href="https://github.com/diana-dagadu"><i class="zmdi zmdi-github-alt"></i></a>
-                        <a href="https://www.instagram.com/dede_dagadu/"><i class="zmdi zmdi-linkedin"></i></a>
-                    </div>
-                    <div class="icons">
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Diana Dede Dagadu</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Takoradi, Ghana</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">dianadagadu@gmail.com</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Send a message?</div>
-                    <form class="contact-form" action="#" method="POST">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" class="fullname" placeholder="Name">
-                            </div>
-                            <div class="field email">
-                                <input type="text" class="email-input" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" class="subject" placeholder="Subject">
-                        </div>
-                        <div class="field textarea">
-                            <textarea class="message" cols="30" rows="10" placeholder="Message"></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button class="send-msg" type="submit" name="send">Send message</button>
-                            <div class="error-box"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
         </div>
     </section>
 
