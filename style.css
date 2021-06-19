@@ -476,12 +476,12 @@ footer span a:hover{
 
 
 /* responsive media query start */
-@media (max-width: 1104px) {
+/* @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
         width: 350px;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .max-width{
@@ -552,6 +552,10 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
+    .about .about-content .right p{
+        text-align: justify;
+        margin-left: 5%;
+    }    
     .services .serv-content .card,
     .services .serv-content .project-card,
     .services .serv-content .work-card,
@@ -583,6 +587,10 @@ footer span a:hover{
     }
     .home{
         background: url() center no-repeat;
+    }
+    .about .about-content .right a{
+        margin-top: 20px;
+        margin-left: 40%;
     }
 
 }
@@ -618,6 +626,10 @@ footer span a:hover{
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
+    }
+    .about .about-content .right a{
+        margin-top: 20px;
+        margin-left: 25%;
     }
     .contact .right form .fields{
         flex-direction: column;
