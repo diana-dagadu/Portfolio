@@ -62,6 +62,7 @@ section .title::before{
     z-index: 999;
     padding: 8px 0 0 0;
     font-family: 'Ubuntu', sans-serif;
+    top: 0;
 }
 .navbar .max-width{
     display: flex;
@@ -129,6 +130,8 @@ section .title::before{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .left{
@@ -506,7 +509,11 @@ footer span a:hover{
     .menu-btn{
         display: block;
     }
-    .navbar .menu{
+    .navbar{
+    position: absolute;
+    }
+    
+    /* .navbar .menu{
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -516,7 +523,7 @@ footer span a:hover{
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
-    }
+    } */
     .navbar .menu.active{
         left: 0;
     }
@@ -538,8 +545,16 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
+    .home .home-content{
+        margin-top: 50%;
+        grid-template-columns: 1fr;
+    }
+
     .max-width{
         max-width: 930px;
+    }
+    .about{
+        margin-top: 60%;
     }
     .about .about-content .column{
         width: 100%;
@@ -592,6 +607,10 @@ footer span a:hover{
         margin-top: 20px;
         margin-left: 40%;
     }
+    .about{
+        margin-top: 80%;
+    }
+
 
 }
 
@@ -608,6 +627,14 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
+    .home .home-content{
+        margin-top: 50%;
+    }
+    .about{
+        margin-top: 95%;
+    }
+
+
     .services .serv-content .card,
     .services .serv-content .project-card,
     .services .serv-content .work-card,
@@ -623,10 +650,26 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+    .home .home-content{
+        margin-top: 50%;
+    }
+    .home .home-content a{
+        font-size: 20px;
+        margin-right: -10%;
+    }
+
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
     }
+    .about{
+        margin-top: 100%;
+    }
+    /* .about .about-content .right img{
+    height: 50%;
+    width: 50%;    
+    } */
+
     .about .about-content .right a{
         margin-top: 20px;
         margin-left: 25%;
@@ -649,5 +692,12 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .services .serv-content .card,
+    .services .serv-content .project-card,
+    .services .serv-content .work-card,
+    .services .serv-content .work-card2{
+        width: 100%;
+    }
+
 }
 }
